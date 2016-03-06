@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM ubuntu
+FROM github.com/ubuntu
 
 # Install MongoDB.
 RUN \
